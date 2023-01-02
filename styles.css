@@ -43,10 +43,27 @@ Navbar */
     color: white;
     font-size: 2rem;
     padding: 15px;
+    display: flex;
+    align-items: center;
+
 }
 
 #navlogo {
     height: 3vh;
+}
+
+.navoptions {
+    position: absolute;
+    right: 2vw;
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+.option {
+    margin-left: 2vh;
+    font-size: 2.5vh;
+    color: #ffffffe0;
 }
 
 /* Video */
