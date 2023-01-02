@@ -6,5 +6,21 @@
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.767)
+    background-color: rgba(0, 0, 0, 0.767);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+}
+
+.video {
+    width: 100vw;
+    background-color: black;
+}
+
+.foodvid {
+    width: 100%;
+    height: auto;
+    opacity: 50%;
 }
