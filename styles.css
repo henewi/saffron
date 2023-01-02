@@ -56,3 +56,9 @@ Navbar */
     height: auto;
     opacity: 50%;
 }
+
+.saflogomiddle {
+    position: absolute;
+    top: 48%;
+    left: 37%;
+}
