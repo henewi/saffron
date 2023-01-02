@@ -5,6 +5,36 @@
     border: 0;
 }
 
+body {
+    overflow-x: hidden;
+    overflow: overlay;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #ffffff #00000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #00000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+/* 
+Navbar */
+
 .navbar {
     background-color: rgba(0, 0, 0, 0.767);
     position: fixed;
@@ -13,6 +43,8 @@
     color: white;
     font-size: 2rem;
 }
+
+/* Video */
 
 .video {
     width: 100vw;
