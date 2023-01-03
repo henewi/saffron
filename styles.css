@@ -1,3 +1,8 @@
+@font-face {
+    font-family: comf;
+    src: url(./fonts/Comfortaa-Regular.ttf);
+}
+
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
@@ -55,6 +60,11 @@ body {
 .navlogo {
     height:calc(10px + 1.5vw);
     margin-top: 1vh;
+    transition: 1s;
+}
+
+.navlogo:hover {
+    scale: 1.05;
 }
 
 .navoptions {
@@ -67,14 +77,15 @@ body {
 
 .option {
     margin-left: 2vh;
-    font-size:calc(10px + 1vw);
-    color: #ffffffe0;
+    font-size:calc(15px + 0.7vw);
+    color: orangered;
     transition: 0.5s;
+    font-family: comf;
 }
 
 .option:hover {
-    transform: scale(1.05);
-    color: orangered;
+    transform: scale(1.06);
+    color: white;
     cursor: pointer;
 }
 
@@ -82,6 +93,7 @@ body {
 
 .video {
     width: 100vw;
+    max-height: 100vh;
     background-color: black;
 }
 
@@ -106,13 +118,19 @@ body {
 }
 
 .logotext {
-    color: rgba(255, 255, 255, 0.808);
+    color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: 100;
     font-size: 3vh;    
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Main */
+
+.main {
+    padding: 300px;
 }
 
 /* Mobile Compatibility */
