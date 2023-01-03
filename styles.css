@@ -86,12 +86,19 @@ html {
     color: orangered;
     transition: 0.5s;
     font-family: comf;
+    text-decoration: none;
 }
 
 .option:hover {
     transform: scale(1.06);
     color: white;
     cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
 
 /* Video */
