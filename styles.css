@@ -124,5 +124,20 @@ body {
     .option {
         opacity: 0;
     }
-    
+    .logoholder {
+        width: 100%;
+        position: absolute;
+        top: 12vh;
+        left: 0vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logotext {
+        font-size: 21px;
+        margin-top: 5px;
+    }
+    .saflogomiddle {
+        width: 200px;
+    }
 }
