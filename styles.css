@@ -11,6 +11,7 @@
 body {
     overflow-x: hidden;
     overflow: overlay;
+    background-color: black;
 }
 
 /*  Scrollbar */
@@ -18,12 +19,12 @@ body {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #ffffff #00000000;
+    scrollbar-color: #ffffff #ffffff;
   }
 
   /* Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 16px;
+    width: 10px;
   }
 
   *::-webkit-scrollbar-track {
@@ -52,13 +53,13 @@ body {
 }
 
 .navlogo {
-    height: 3vh;
+    height:calc(10px + 1.5vw);
     margin-top: 1vh;
 }
 
 .navoptions {
     position: absolute;
-    right: 2vw;
+    right:calc(10px + 3vw);
     display: flex;
     align-items: center;
     margin-right: 2vw;
@@ -66,8 +67,15 @@ body {
 
 .option {
     margin-left: 2vh;
-    font-size: 2.5vh;
+    font-size:calc(10px + 1vw);
     color: #ffffffe0;
+    transition: 0.5s;
+}
+
+.option:hover {
+    transform: scale(1.05);
+    color: orangered;
+    cursor: pointer;
 }
 
 /* Video */
