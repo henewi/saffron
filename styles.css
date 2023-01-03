@@ -103,6 +103,12 @@ body {
     opacity: 50%;
 }
 
+.persianman {
+    max-width: 25vw;
+    max-height: auto;
+    margin-bottom: -4vh;
+}
+
 .saflogomiddle {
     max-width: 25vw;
     max-height: auto;
@@ -110,8 +116,8 @@ body {
 
 .logoholder {
     position: absolute;
-    top: 48%;
-    left: 37%;
+    top: 32%;
+    left: 37.5%;
     display: flex;
     flex-direction: column;
     z-index: 999;
@@ -161,17 +167,19 @@ body {
     .logoholder {
         width: 100%;
         position: absolute;
-        top: 12vh;
+        top: 10vh;
         left: 0vw;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .logotext {
-        font-size: 21px;
-        margin-top: 5px;
+        opacity: 0;
     }
     .saflogomiddle {
         width: 200px;
+    }
+    .persianman {
+        margin-bottom: -0vh;
     }
 }
