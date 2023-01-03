@@ -130,7 +130,15 @@ body {
 /* Main */
 
 .main {
-    padding: 300px;
+    color: white;
+}
+
+.separator {
+    border-radius: 5px;
+    width: 30vw;
+    height: 10px;
+    margin-left:calc(0px + 15vw);
+    background-color: orangered;
 }
 
 /* Mobile Compatibility */
