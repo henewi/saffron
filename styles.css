@@ -51,7 +51,7 @@ body {
 
 }
 
-#navlogo {
+.navlogo {
     height: 3vh;
 }
 
@@ -111,5 +111,10 @@ body {
 @media screen and (max-width: 700px) {
     body {
         background-color: rgba(0, 0, 0, 0);
+    }
+    .navlogo {
+        width: 80px;
+        height: 20px;
+
     }
 }
