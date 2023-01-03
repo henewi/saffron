@@ -114,8 +114,15 @@ body {
         background-color: rgba(0, 0, 0, 0);
     }
     .navlogo {
-        width: 80px;
+        width: 90px;
         height: 20px;
-
+        margin-left: 10px;
     }
+    .navbar{
+        padding: 7px;
+    }
+    .option {
+        opacity: 0;
+    }
+    
 }
