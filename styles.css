@@ -59,6 +59,7 @@ body {
 
 .navlogo {
     height:calc(10px + 1.5vw);
+    margin-left: 10px;
     margin-top: 1vh;
     transition: 1s;
 }
@@ -116,7 +117,7 @@ body {
 
 .logoholder {
     position: absolute;
-    top: 32%;
+    top: 29%;
     left: 37.5%;
     display: flex;
     flex-direction: column;
@@ -131,6 +132,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-top: 2px solid orangered;
+    padding: 3px;
 }
 
 /* Main */
@@ -139,13 +142,13 @@ body {
     color: white;
 }
 
-.separator {
+/* .separator {
     border-radius: 5px;
     width: 30vw;
     height: 10px;
     margin-left:calc(0px + 15vw);
     background-color: orangered;
-}
+} */
 
 /* Mobile Compatibility */
 
