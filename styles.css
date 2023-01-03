@@ -163,6 +163,7 @@ body {
     }
     .navbar{
         padding: 7px;
+        opacity: 0  ;
     }
     .option {
         opacity: 0;
@@ -170,7 +171,7 @@ body {
     .logoholder {
         width: 100%;
         position: absolute;
-        top: 10vh;
+        top: 3.5vh;
         left: 0vw;
         display: flex;
         justify-content: center;
@@ -180,9 +181,10 @@ body {
         opacity: 0;
     }
     .saflogomiddle {
-        width: 200px;
+        max-width: 200px;
     }
     .persianman {
-        margin-bottom: -0vh;
+        margin-bottom: -2vh;
+        max-width: 200px;
     }
 }
