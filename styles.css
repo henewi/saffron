@@ -153,6 +153,7 @@ a:hover, a:visited, a:link, a:active
 
 .main {
     color: white;
+    margin-left: 20vw;
 }
 
 /* .separator {
