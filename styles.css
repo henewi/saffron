@@ -175,8 +175,30 @@ a:hover, a:visited, a:link, a:active
     margin-bottom: 10px;
 }
 
+/* Contact section */
+
 #contact {
     font-family: comf;
+}
+
+.contactcontainer {
+    display: flex;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    width: 27vw;
+    margin-top: 10px;
+    margin-right: 1vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
 }
 
 .contacttitle {
@@ -184,12 +206,27 @@ a:hover, a:visited, a:link, a:active
     font-size:calc(10px + 3vh);
     border-left: 2px solid orangered;
     padding-left: 0.6vw;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .map {
     border-radius: 10px;
 }
+
+/* Placeholders */ 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: orangered;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: orangered;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: orangered;
+  }
 
 /* Mobile Compatibility */
 
