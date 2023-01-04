@@ -178,6 +178,7 @@ a:hover, a:visited, a:link, a:active
     display: flex;
     margin-right: 20.5vw;
     margin-bottom: 5vh;
+    font-size:calc(13px + 1vh);
 }
 
 /* Contact section */
