@@ -199,6 +199,33 @@ a:hover, a:visited, a:link, a:active
     border: 1px solid white;
     background-color: black;
     color: white;
+    font-weight: 900;
+    font-family: comf;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: right;
+}
+
+.submit {
+    width: 5vw;
+    margin-top: 10px;
+    margin-right: 1vw;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: orangered;
+    font-weight: 900;
+    font-family: comf;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    color: white;
+    border: 1px solid orangered;
+    cursor: pointer;
 }
 
 .contacttitle {
@@ -211,6 +238,12 @@ a:hover, a:visited, a:link, a:active
 
 .map {
     border-radius: 10px;
+}
+
+/* Footer */ 
+
+.footer {
+    margin: 10vh;
 }
 
 /* Placeholders */ 
