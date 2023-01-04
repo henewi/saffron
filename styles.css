@@ -159,6 +159,13 @@ a:hover, a:visited, a:link, a:active
     margin-top: 10vh;
 }
 
+.menutitle {
+    font-family: comf;
+    font-size:calc(10px + 3vh);
+    border-left: 2px solid orangered;
+    padding-left: 0.6vw;
+}
+
 .map {
     border-radius: 10px;
 }
