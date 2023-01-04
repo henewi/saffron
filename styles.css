@@ -417,4 +417,15 @@ a:hover, a:visited, a:link, a:active
         margin-left: -4vw;
         border-radius: 2vh;
     }
+    .aboutcontent {
+        margin-right: 5vw;
+        margin-top: 10vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .abouttitle {
+        margin-top: 4vh;
+    }
 }   
