@@ -201,6 +201,11 @@ a:hover, a:visited, a:link, a:active
     color: white;
     font-weight: 900;
     font-family: comf;
+    transition: 0.5s;
+}
+
+.inputs:hover {
+    border: 1px solid orangered;
 }
 
 .buttondiv {
