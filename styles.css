@@ -51,7 +51,7 @@ html {
 .navbar {
     background-color: rgba(0, 0, 0, 0.767);
     position: fixed;
-    z-index: 999;
+    z-index: 100;
     width: 100%;
     color: white;
     font-size: 2rem;
@@ -173,6 +173,10 @@ a:hover, a:visited, a:link, a:active
     border-left: 2px solid orangered;
     padding-left: 0.6vw;
     margin-bottom: 10px;
+}
+
+#contact {
+    font-family: comf;
 }
 
 .contacttitle {
