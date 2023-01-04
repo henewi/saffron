@@ -196,6 +196,11 @@ a:hover, a:visited, a:link, a:active
     flex-direction: column;
 }
 
+.fone {
+    font-size: calc(10px + 1vh);
+    color: orangered;
+}
+
 .inputs {
     width: 27vw;
     margin-top: 10px;
