@@ -428,4 +428,11 @@ a:hover, a:visited, a:link, a:active
     .abouttitle {
         margin-top: 4vh;
     }
+    .fone {
+        margin-left: 4vw;
+    }
+    .contacttitle {
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
 }   
