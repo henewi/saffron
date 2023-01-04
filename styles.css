@@ -242,7 +242,33 @@ a:hover, a:visited, a:link, a:active
     transition: 0.5s;
 }
 
+.abouttitle {
+    font-family: comf;
+    font-size:calc(10px + 3vh);
+    border-left: 2px solid orangered;
+    padding-left: 0.6vw;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.menutitle {
+    font-family: comf;
+    font-size:calc(10px + 3vh);
+    border-left: 2px solid orangered;
+    padding-left: 0.6vw;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
 .contacttitle:hover {
+    border-color: white;
+}
+
+.abouttitle:hover {
+    border-color: white;
+}
+
+.menutitle:hover {
     border-color: white;
 }
 
@@ -333,5 +359,26 @@ a:hover, a:visited, a:link, a:active
     }
     .submit {
         width: 20vw;
+    }
+    .contacttitle {
+        display: flex;
+        margin-left: -9vw;
+        align-items: center;
+        border: none;
+        justify-content: center;
+    }
+    .abouttitle {
+        display: flex;
+        margin-left: -9vw;
+        align-items: center;
+        border: none;
+        justify-content: center;
+    }
+    .menutitle {
+        display: flex;
+        margin-left: -9vw;
+        align-items: center;
+        border: none;
+        justify-content: center;
     }
 }   
