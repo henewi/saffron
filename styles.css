@@ -311,13 +311,14 @@ a:hover, a:visited, a:link, a:active
     padding-bottom: 3vh;
     align-items: center;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(14, 14, 14);
+    justify-content: Center;
+    text-align: right;
+    background-color: rgb(20, 20, 20);
 }
 
 .creds {
-    color: rgb(68, 68, 68);
+    color: rgb(0, 0, 0);
+    margin-left: 1vw;
 }
 
 /* Placeholders */ 
@@ -446,4 +447,10 @@ a:hover, a:visited, a:link, a:active
         margin-top: 4vh;
         margin-bottom: 4vh;
     }
-}   
+    .creds {
+        opacity: 0;
+    }
+    .footer {
+        opacity: 0  ;
+    }
+}  
