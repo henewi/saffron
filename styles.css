@@ -306,7 +306,18 @@ a:hover, a:visited, a:link, a:active
 /* Footer */ 
 
 .footer {
-    margin: 10vh;
+    margin-top: 10vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+}
+
+.creds {
+    color: rgb(68, 68, 68);
 }
 
 /* Placeholders */ 
